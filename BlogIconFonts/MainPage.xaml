@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="BlogIconFonts.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlogIconFonts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Horizontal">
+        <TextBlock x:Name="TextBlock1" Text="&#xE901;" FontFamily="{StaticResource CustomIconFont}" FontSize="48" Margin="36"/>
+        <TextBlock x:Name="TextBlock2" Text="&#xE902;" FontFamily="{StaticResource CustomIconFont}" FontSize="48" Margin="36"/>
+        <TextBlock x:Name="TextBlock3" FontSize="48" Margin="36"/>
+        <TextBlock x:Name="TextBlock4" FontSize="48" Margin="36"/>
+    </StackPanel>
+</Page>

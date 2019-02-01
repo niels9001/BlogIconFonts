@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="BlogIconFonts.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlogIconFonts">
+    <Application.Resources>
+        <FontFamily x:Key="CustomIconFont">/Assets/Huetro.ttf#Huetro</FontFamily>
+    </Application.Resources>
+</Application>
