@@ -27,7 +27,7 @@ namespace BlogIconFonts
             this.InitializeComponent();
 
             TextBlock3.FontFamily = (FontFamily)Application.Current.Resources["CustomIconFont"];
-            TextBlock3.Text = "\ue903";
+            TextBlock3.Text = "\ue903"; 
 
             TextBlock4.FontFamily = (FontFamily)Application.Current.Resources["CustomIconFont"];
             TextBlock4.Text = "\ue904";
